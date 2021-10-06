@@ -1,0 +1,23 @@
+@import '_colors.scss';
+
+// Stiles that are to be applyied in general and not divided by component
+
+//General body, head, fonts and others of this kind
+body {
+  font-family: -webkit-pictograph;
+  font-size: larger;
+  background-color: $backgroundColorMain;
+  margin: 0;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 10px 0;
+  background-color: $backgroundColorBlack;
+  a {
+    color: $backgroundColorMain;
+    text-decoration: none;
+    flex-basis: 10%;
+    padding: 15px;
+  }
+}
