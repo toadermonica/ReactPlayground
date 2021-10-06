@@ -1,0 +1,21 @@
+.defaultForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+
+  .defaultLabel {
+    margin: 5px 0;
+    padding: 5px 0;
+  }
+  .consentsection {
+    display: inline-flex;
+    .consentlabel {
+      font-size: 15px !important;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
