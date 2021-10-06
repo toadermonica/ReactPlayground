@@ -28,5 +28,3 @@ function FormComponent(){
 }
 
 export default FormComponent;
-
-//TODO: Play with spread and rest operators in order to get the hand of them. 
